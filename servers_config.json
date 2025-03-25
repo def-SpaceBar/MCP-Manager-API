@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "sqlite": {
+      "command": "uvx",
+      "args": ["mcp-server-sqlite", "--db-path", "./test.db"]
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"],
+      "env": {
+        "APPDATA": "C:\\Users\\user\\AppData\\Roaming\\",
+        "BRAVE_API_KEY": "..."
+    }
+    }
+  }
+}
