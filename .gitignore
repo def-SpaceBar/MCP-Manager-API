@@ -1,1 +1,5 @@
 .env
+sandbox.py
+.gitignore
+.gitattributes
+agent.py

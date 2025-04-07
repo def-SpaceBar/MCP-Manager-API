@@ -1,16 +1,9 @@
 {
   "mcpServers": {
-    "sqlite": {
-      "command": "uvx",
-      "args": ["mcp-server-sqlite", "--db-path", "./test.db"]
-    },
-    "puppeteer": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-puppeteer"],
-      "env": {
-        "APPDATA": "C:\\Users\\user\\AppData\\Roaming\\",
-        "BRAVE_API_KEY": "..."
-    }
+    "poc_mcp": {
+      "command": "python3.13.exe",
+      "args": ["C:\\Users\\space\\Desktop\\Python\\mcp_agent\\mcp_servers\\poc_mcp.py"],
+      "description": ""
     }
   }
 }
