@@ -27,13 +27,6 @@ class MCPManager:
         self.tools_name = []
         self.process = process
 
-    # async def kill_session(self):
-    #     await self.exit_stack.aclose()
-    #     self.process.terminate()
-    #     await self.process.wait()
-    #     del SERVERS[self.name]
-
-    import asyncio
 
     async def kill_session(self):
         self.process.kill()
