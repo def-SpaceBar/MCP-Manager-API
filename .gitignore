@@ -1,6 +1,4 @@
 .env
-sandbox.py
-.gitignore
-.gitattributes
+.venv
 agent.py
 sandbox.py
